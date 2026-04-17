@@ -1,22 +1,22 @@
 {
-  "name": "STARK-MD",
+  "name": "Endroid Bot",
   "version": "9.0.0",
-  "description": "STARK MD, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
-  "website": "https://files.catbox.moe/ykdtkm.jpeg",
-  "logo": "https://files.catbox.moe/w3k9sq.jpg",
+  "description": "Endroid Bot, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
+  "website": "https://endroid.pages.dev",
+  "logo": "https://raw.githubusercontent.com/wized2/Endroid-Bot/refs/heads/main/assets/banner.png",
   "keywords": ["STARK-MD", "Whatsapp bot", "Bot", "STARK-MD BOT"],
-  "repository": "https://github.com/ALI-INXIDE/STARK-MD",
+  "repository": "https://github.com/wized2/STARK-MD",
   "success_url": "/",
   "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Put your Session STARK-MD~ID here",
-      "value": "",
+      "value": "STARK-MD:prs:msDP9",
       "required": true
     },
     "SUDO_NUMBERS": {
       "description": "Add multiple numbers with country code without (+), separated by comma",
-      "value": "923437393822",
+      "value": "923156287068",
       "required": false
     },
     "ANTI_DELETE": {
@@ -36,12 +36,12 @@
     },
      "OWNER_NUMBER": {
       "description": "Bot owner number",
-      "value": "923437393822",
+      "value": "923156287068",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Owner display name",
-      "value": "THE ALI INXIDE",
+      "value": "Mudasir Wazir",
       "required": true
     },
     "AUTO_STATUS_EMOJIS": {
@@ -61,12 +61,12 @@
     },
     "PACK_NAME": {
       "description": "Sticker pack name",
-      "value": "мα∂є ву ѕтαяк-м∂",
-      "required": false
+      "value": "мα∂є ву endroid bot",
+      "required": true
     },
     "PREFIX": {
       "description": "Command prefix",
-      "value": ".",
+      "value": "/",
       "required": true
     },
     "ANTI_CALL": {
@@ -81,18 +81,18 @@
     }, 
     "BOT_NAME": {
       "description": "Bot name display",
-      "value": "𓆩ု᪳𝐒𝐓𝐀𝐑𝐊-𝐌𝐃ှ᪳𓆪",
+      "value": "Endroid Bot",
       "required": true
     },
     "BOT_PIC": {
       "description": "put Bot menu picture URL",
-      "value": "https://files.catbox.moe/w3k9sq.jpg",
+      "value": "https://raw.githubusercontent.com/wized2/Endroid-Bot/refs/heads/main/assets/banner.png",
       "required": true
     },
     "PRESENCE": {
       "description": "Presence type (typing/recording/online/null)",
-      "value": "null",
-      "required": false
+      "value": "online",
+      "required": true
     },
     "TIME_ZONE": {
       "description": "Your timezone",
